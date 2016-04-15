@@ -1,0 +1,103 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, sans-serif;
+}
+
+blockquote {
+	background: url("../data/guillemet1.png") right bottom no-repeat, url("../data/guillemet0.png") left top no-repeat;
+	padding: 20px;
+	border: none;
+	font-size: 1.5em;
+}
+
+header img {
+	width: 120px;
+	margin: 10px;
+}
+
+header button {
+	background: #fff;
+	border: 2px solid #00a693;
+	padding: 10px 15px;
+	border-radius: 50px;
+	margin: 5px;
+	width: 45%;
+}
+
+header button:hover {
+	background: #00a693;
+	border: 2px solid #00a693;
+	color: #fff;
+	transition: all .2s;
+}
+
+#stats {
+	background: url("../data/90jours-cover.jpg") center fixed no-repeat;
+	background-size: cover;
+	height: 550px;
+	color: #fff;
+	text-align: center;
+}
+
+#stats h2 {
+	margin: 80px 0;
+}
+
+.eau:hover::after {
+	content: "soit 1545580m3 d'eau par an";
+	display: block;
+	font-size: 0.8em;
+	margin-top: 5px;
+	font-family: Georgia, serif;
+}
+
+.co2:hover::after {
+	content: "soit 9814862kg de CO2 par an";
+	display: block;
+	font-size: 0.8em;
+	margin-top: 5px;
+	font-family: Georgia, serif;
+}
+
+#stats strong {
+	font-size: 3em;
+	display: block;
+}
+
+#video {
+	background: url("../data/video.jpg") center no-repeat;
+	background-size: cover;
+	height: 550px;
+	filter: grayscale(50%);
+	background-origin: padding-box;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+
+#video h3 {
+	margin-top: 200px;
+}
+
+#video h3 img {
+	width: 150px;
+	display: inline-block;
+	margin: 10px;
+}
+
+#screens img {
+	margin: 0;
+	width: 100%;
+}
+
+#presse {
+	width: 80%;
+	margin: 0 auto;
+}
